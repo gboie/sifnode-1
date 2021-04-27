@@ -8,8 +8,7 @@ env:
 jobs:
   build_sifdocker:
     runs-on: ubuntu-latest
-    permissions:
-      packages: write-all
+    permissions: write-all | read-all
     steps:
     - uses: actions/checkout@v2
 
