@@ -9,7 +9,7 @@ jobs:
   build_sifdocker:
     runs-on: ubuntu-latest
     permissions:
-      packages: write
+      packages: write-all
     steps:
     - uses: actions/checkout@v2
 
